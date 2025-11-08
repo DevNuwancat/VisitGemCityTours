@@ -142,12 +142,12 @@ async function onSubmit(e: Event) {
           <div class="p-4  sm:p-2 grid sm:grid-cols-2 gap-4">
             
             <div class="rounded-lg bg-blue-400/10 backdrop-blur p-4 text-sm ">
-            <div class="font-semibold">What is Gem City Tour</div>
+            <div class="font-semibold text-white">What is Gem City Tour</div>
             <p class="text-white/80 mt-1">Short, honest tours created by locals. Ethical basics of gem trading, respect for nature, and warm community visits with in-hand fully immersive experience tour.</p>
             </div>
 
             <div class="hidden md:block rounded-lg bg-blue-400/10 backdrop-blur p-4 text-sm ">
-            <div class="font-semibold">About the Experience</div>
+            <div class="font-semibold text-white">About the Experience</div>
             <p class="text-white/80 mt-1">Real moments — A peaceful journey where you learn, touch, and connect with Sri Lanka’s gem heart and nature.</p>
             </div>
 
