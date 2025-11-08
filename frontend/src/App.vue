@@ -1,21 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+// Remove this unused import line:
+// import HelloWorld from './components/HelloWorld.vue'
+
 import { ref, computed } from 'vue'
 
-/**
- * Props
- * - formspreeId: your Formspree endpoint id (the part after /f/)
- * - subject: email subject line
- * - next: optional redirect URL after success (leave empty to show inline success)
- */
 const props = defineProps<{
-  formspreeId: string
-  subject?: string
+  formspreeId?: string  // Also add this missing prop
+  subject?: string      // Also add this missing prop
   next?: string
 }>()
 
 const endpoint = computed(() => `https://formspree.io/f/${props.formspreeId || import.meta.env.VITE_FORMSPREE_ID || 'xvgvevqv'}`)
-
+// ...existing code...
 const subject = computed(() => props.subject ?? 'New Booking Request - Visit Gem City')
 const next = computed(() => props.next ?? '')
 
