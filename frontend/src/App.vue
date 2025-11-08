@@ -93,7 +93,7 @@ async function onSubmit(e: Event) {
                 
 
                 <div class="relative flex">
-                <a href="#" class="inline-flex relative px-4 py-2 rounded-md
+                <a href="#book" class="inline-flex relative px-4 py-2 rounded-md
                                    bg-linear-to-r from-cyan-600 to-blue-600 text-white shadow hover:opacity-90 border-2 border-gray-800">Book</a>
                 <span class="absolute -right-1.5 -top-1 h-4 w-4 rounded-full bg-sky-300 opacity-90
                  shadow-lg"></span>
@@ -130,10 +130,10 @@ async function onSubmit(e: Event) {
         </div>
 
           <div class="p-6 sm:p-10">
-          <h1 class="text-xl sm:text-7xl font-black leading-tight">Visit</h1>
-          <h1 class="text-5xl sm:text-7xl font-black leading-tight">Gem City</h1>
+          <h1 class="text-xl sm:text-7xl font-black leading-tight text-white">Visit</h1>
+          <h1 class="text-5xl sm:text-7xl font-black leading-tight text-white">Gem City</h1>
 
-          <p class="mt-3 max-w-2xl text-white/80 text-2xl">Home of precious gems, nature and beautiful people.</br>
+          <p class="hidden sm:block mt-3 max-w-2xl text-white/80 text-2xl">Home of precious gems, nature and beautiful people.</br>
           
           </p>
 
@@ -146,7 +146,7 @@ async function onSubmit(e: Event) {
             <p class="text-white/80 mt-1">Short, honest tours created by locals. Ethical basics of gem trading, respect for nature, and warm community visits with in-hand fully immersive experience tour.</p>
             </div>
 
-            <div class="rounded-lg bg-blue-400/10 backdrop-blur p-4 text-sm ">
+            <div class="hidden md:block rounded-lg bg-blue-400/10 backdrop-blur p-4 text-sm ">
             <div class="font-semibold">About the Experience</div>
             <p class="text-white/80 mt-1">Real moments — A peaceful journey where you learn, touch, and connect with Sri Lanka’s gem heart and nature.</p>
             </div>
@@ -498,7 +498,7 @@ async function onSubmit(e: Event) {
           </ul>
           <div class="mt-6 flex items-end gap-3">
             <div>
-              <div class="text-3xl font-extrabold text-gray">$120 <span class="text-sm text-gray-400">LKR 35,500</span></div>
+              <div class="text-3xl font-extrabold text-gray">$110 <span class="text-sm text-gray-400">LKR 33,500</span></div>
               <div class="text-xs text-slate-500">per person</div>
             </div>
             <div class="ml-auto">
