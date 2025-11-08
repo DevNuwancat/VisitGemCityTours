@@ -85,7 +85,7 @@ async function onSubmit(e: Event) {
               </a>
               </div>
 
-              <div class="hidden sm:flex gap-6 text-sm font-sans items-center ">
+              <div class="hidden sm:flex gap-6 text-sm font-sans items-center text-white ">
                 <a href="#story" class="hover:text-cyan-500 duration-150 ease-in transition-all">Gem City Stoy</a>
                 <a href="#attraction" class="hover:text-cyan-500 duration-150 ease-in transition-all">Attraction</a>
                 <a href="#packages" class="hover:text-cyan-500 duration-150 ease-in transition-all">Packages</a>
@@ -118,7 +118,7 @@ async function onSubmit(e: Event) {
         <!--Text Content-->
 
         <div class="flex item-center justify-between p-5">
-          <div class="flex items-center gap-2  text-cyan-00/90">
+          <div class="flex items-center gap-2  dark:text-cyan-00/90 text-white">
             <span class="inline-flex items-center gap-2  py-1 rounded-full text-3xl"></span>
             <span class="hidden sm:inline text-xs bg-gray-700/40 px-2 py-1 rounded-full border ">Local Guides • Small Groups  • Real Experience </span>
           </div>
@@ -711,9 +711,14 @@ async function onSubmit(e: Event) {
         <p class="mt-2 text-slate-600 dark:text-slate-300">Proud collaborators in community and sustainability.</p>
       </div>
       <div class="flex flex-wrap justify-center items-center gap-8">
-        <img src="./assets/Partnerlogo/p_logo_1.png" alt="Partner 1" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150" />
-        <img src="./assets/Partnerlogo/p_logo_3.png" alt="Partner 3" class="h-20 opacity-80 hover:opacity-100 transition-opacity duration-150" />
-        <img src="./assets/Partnerlogo/p_logo_4.png" alt="Partner 4" class="h-18 opacity-80 hover:opacity-100 transition-opacity duration-150" />
+        <img src="./assets/Partnerlogo/p_logo_1b.png" alt="Partner 1" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150 block dark:hidden" />
+        <img src="./assets/Partnerlogo/p_logo_1.png" alt="Partner 1" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150 hidden dark:block" />
+
+        <img src="./assets/Partnerlogo/p_logo_3.png" alt="Partner 3" class="h-20 opacity-80 hover:opacity-100 transition-opacity duration-150 " />
+
+        <img src="./assets/Partnerlogo/p_logo_4.png" alt="Partner 4" class="h-18 opacity-80 hover:opacity-100 transition-opacity duration-150 hidden dark:block" />
+        <img src="./assets/Partnerlogo/p_logo_4b.png" alt="Partner 4" class="h-18 opacity-80 hover:opacity-100 transition-opacity duration-150 block dark:hidden" />
+
          <img src="./assets/Partnerlogo/p_logo_5.png" alt="Partner 5" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150" />
          <img src="./assets/Partnerlogo/p_logo_6.png" alt="Partner 5" class="h-6 opacity-80 hover:opacity-100 transition-opacity duration-150" />
       </div>
