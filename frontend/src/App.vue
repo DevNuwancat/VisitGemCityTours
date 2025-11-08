@@ -311,7 +311,7 @@ async function onSubmit(e: Event) {
         <p class="mt-2 text-slate-600 dark:text-slate-300">Shortlist of spots we actually visit</p>
       </div>
       <div class="mx-right">
-        hello
+        
       </div>
 
         
