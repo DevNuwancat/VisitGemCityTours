@@ -711,11 +711,11 @@ async function onSubmit(e: Event) {
         <p class="mt-2 text-slate-600 dark:text-slate-300">Proud collaborators in community and sustainability.</p>
       </div>
       <div class="flex flex-wrap justify-center items-center gap-8">
-        <img src="./assets/Partner's logo/p_logo_1.png" alt="Partner 1" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150" />
-        <img src="./assets/Partner's logo/p_logo_3.png" alt="Partner 3" class="h-20 opacity-80 hover:opacity-100 transition-opacity duration-150" />
-        <img src="./assets/Partner's logo/p_logo_4.png" alt="Partner 4" class="h-18 opacity-80 hover:opacity-100 transition-opacity duration-150" />
-         <img src="./assets/Partner's logo/p_logo_5.png" alt="Partner 5" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150" />
-         <img src="./assets/Partner's logo/p_logo_6.png" alt="Partner 5" class="h-6 opacity-80 hover:opacity-100 transition-opacity duration-150" />
+        <img src="./assets/Partnerlogo/p_logo_1.png" alt="Partner 1" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150" />
+        <img src="./assets/Partnerlogo/p_logo_3.png" alt="Partner 3" class="h-20 opacity-80 hover:opacity-100 transition-opacity duration-150" />
+        <img src="./assets/Partnerlogo/p_logo_4.png" alt="Partner 4" class="h-18 opacity-80 hover:opacity-100 transition-opacity duration-150" />
+         <img src="./assets/Partnerlogo/p_logo_5.png" alt="Partner 5" class="h-24 opacity-80 hover:opacity-100 transition-opacity duration-150" />
+         <img src="./assets/Partnerlogo/p_logo_6.png" alt="Partner 5" class="h-6 opacity-80 hover:opacity-100 transition-opacity duration-150" />
       </div>
        <div class="flex flex-wrap justify-center items-center gap-8 py-4">
         
