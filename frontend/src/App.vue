@@ -85,11 +85,11 @@ async function onSubmit(e: Event) {
               </a>
               </div>
 
-              <div class="hidden sm:flex gap-6 text-sm font-sans items-center text-white ">
-                <a href="#story" class="hover:text-cyan-500 duration-150 ease-in transition-all">Gem City Stoy</a>
-                <a href="#attraction" class="hover:text-cyan-500 duration-150 ease-in transition-all">Attraction</a>
-                <a href="#packages" class="hover:text-cyan-500 duration-150 ease-in transition-all">Packages</a>
-                <a href="#whyus" class="hover:text-cyan-500 duration-150 ease-in transition-all">Why Us</a>
+              <div class="flex gap-6 text-sm font-sans items-center text-white ">
+                <a href="#story" class="hover:text-cyan-500 duration-150 ease-in transition-all hidden sm:block">Gem City Stoy</a>
+                <a href="#attraction" class="hover:text-cyan-500 duration-150 ease-in transition-all hidden sm:block">Attraction</a>
+                <a href="#packages" class="hover:text-cyan-500 duration-150 ease-in transition-all hidden sm:block">Packages</a>
+                <a href="#whyus" class="hover:text-cyan-500 duration-150 ease-in transition-all hidden sm:block">Why Us</a>
                 
 
                 <div class="relative flex">
@@ -489,7 +489,7 @@ async function onSubmit(e: Event) {
             <h3 class="text-2xl font-bold">Gem City Essentials (Full‑day)</h3>
             <span class="px-3 py-1 rounded-full text-xs bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-200">Best Seller</span>
           </div>
-          <p class="mt-2 text-slate-600 dark:text-slate-300">Enjoy a complete gem journey — from the Gem Market Walk to an authentic Gem Mining Experience, followed by a Gem Cutting Workshop, and a relaxing Tea Break with Lunch Stop.<i class="fa fa-stop"></i>.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Enjoy a complete gem journey — from the Gem Market Walk to an authentic Gem Mining Experience, followed by a Gem Cutting Workshop, and a relaxing Tea Break with Lunch Stop. + Bopath Ella Waterfall<i class="fa fa-stop"></i>.</p>
           <ul class="mt-4 text-sm space-y-2 text-slate-700 dark:text-slate-300">
             <li>⏱️ 8-9 hours</li>
             <li>👥 2–8 guests</li>
@@ -498,8 +498,12 @@ async function onSubmit(e: Event) {
           </ul>
           <div class="mt-6 flex items-end gap-3">
             <div>
-              <div class="text-3xl font-extrabold text-gray">$110 <span class="text-sm text-gray-400">LKR 33,500</span></div>
+              <div class="text-3xl font-extrabold text-gray">$110<span class="text-sm text-gray-400">LKR 33,500</span></div>
               <div class="text-xs text-slate-500">per person</div>
+            </div>
+            <div>
+              <div class="text-3xl font-extrabold text-gray">$75<span class="text-sm text-gray-400">LKR 22,800</span></div>
+              <div class="text-xs text-slate-500">per child(below 12 years)</div>
             </div>
             <div class="ml-auto">
               <a href="#book" class="inline-flex items-center px-5 py-3 rounded-xl bg-linear-to-r from-cyan-600 to-blue-600 text-white font-semibold shadow hover:opacity-90" data-package="Gem City Essentials (‑day)">Book this</a>
@@ -524,11 +528,17 @@ async function onSubmit(e: Event) {
               <div class="text-3xl font-extrabold text-gray">$220 <span class="text-sm text-gray-400">LKR 67,000</span></div>
               <div class="text-xs text-slate-500">per person</div>
             </div>
+             <div>
+              <div class="text-3xl font-extrabold text-gray">$180<span class="text-sm text-gray-400">LKR 54,800</span></div>
+              <div class="text-xs text-slate-500">per child(below 12 years)</div>
+            </div>
             <div class="ml-auto">
               <a href="#book" class="inline-flex items-center px-5 py-3 rounded-xl bg-linear-to-r from-cyan-600 to-blue-600 text-white font-semibold shadow hover:opacity-90" data-package="Gem & Nature Explorer (Two‑days)">Book this</a>
             </div>
+            
           </div>
         </div>
+        
       </div>
       <p class="mt-6 text-center text-xs text-slate-500">* Prices are indicative; confirm in your booking email. Add‑ons: hotel pickup, drone footage, pro photos.</p>
     </div>
@@ -748,11 +758,6 @@ async function onSubmit(e: Event) {
           </svg>
         </a>
 
-        <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white hover:scale-110 transition-transform duration-200">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-          </svg>
-        </a>
 
         <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-700 text-white hover:scale-110 transition-transform duration-200">
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
