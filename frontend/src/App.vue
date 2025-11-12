@@ -479,19 +479,20 @@ async function onSubmit(e: Event) {
   <section id="packages" class="py-16 md:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mb-10 text-center">
-        <h2 class="text-3xl md:text-4xl font-extrabold">Simple Packages</h2>
+        <h2 class="text-3xl md:text-4xl font-extrabold">Simple Package</h2>
         <p class="mt-2 text-slate-600 dark:text-slate-300">Pick one. We'll tailor the timing for your day.</p>
       </div>
-      <div class="grid md:grid-cols-2 gap-6">
+      <div class="flex justify-center">
+        <div class="max-w-2xl">
         <!-- Package A -->
         <div class="rounded-3xl p-6 bg-white/80 dark:bg-slate-800/60 ring-1 ring-black/5 shadow flex flex-col">
           <div class="flex items-center justify-between">
-            <h3 class="text-2xl font-bold">Gem City Essentials (Full‑day)</h3>
+            <h3 class="text-2xl font-bold">Gem City Essentials (Half‑day)</h3>
             <span class="px-3 py-1 rounded-full text-xs bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-200">Best Seller</span>
           </div>
           <p class="mt-2 text-slate-600 dark:text-slate-300">Enjoy a complete gem journey — from the Gem Market Walk to an authentic Gem Mining Experience, followed by a Gem Cutting Workshop, and a relaxing Tea Break with Lunch Stop. + Bopath Ella Waterfall<i class="fa fa-stop"></i>.</p>
           <ul class="mt-4 text-sm space-y-2 text-slate-700 dark:text-slate-300">
-            <li>⏱️ 8-9 hours</li>
+            <li>⏱️ 5-6 hours</li>
             <li>👥 2–8 guests</li>
             <li>🛺 🚙 Private vehicle included (Price may vary depending on your pick-up and drop-off location)</li>
             <li class="text-gray-500">If you use your own transport or come by taxi, we’ll adjust the price and reduce the transport cost</li>
@@ -510,7 +511,8 @@ async function onSubmit(e: Event) {
             </div>
           </div>
         </div>
-        <!-- Package B -->
+
+        <!-- Package B 
         <div class="rounded-3xl p-6 bg-white/80 dark:bg-slate-800/60 ring-1 ring-black/5 shadow flex flex-col">
           <div class="flex items-center justify-between">
             <h3 class="text-2xl font-bold">Gem & Nature Explorer (Two‑days)</h3>
@@ -538,7 +540,8 @@ async function onSubmit(e: Event) {
             
           </div>
         </div>
-        
+      -->
+        </div>
       </div>
       <p class="mt-6 text-center text-xs text-slate-500">* Prices are indicative; confirm in your booking email. Add‑ons: hotel pickup, drone footage, pro photos.</p>
     </div>
@@ -662,8 +665,7 @@ async function onSubmit(e: Event) {
               v-model="model.package"
               class="mt-1 w-full rounded-xl border border-slate-300/60 dark:border-slate-700/60 bg-white/70 dark:bg-slate-900/40 px-3 py-2"
             >
-              <option>Gem City Essentials (Full‑day)</option>
-              <option>Gem & Nature Explorer (Two‑days)</option>
+              <option>Gem City Essentials (Half‑day)</option>
             </select>
           </div>
           <div>
@@ -759,7 +761,7 @@ async function onSubmit(e: Event) {
         </a>
 
 
-        <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-700 text-white hover:scale-110 transition-transform duration-200">
+        <a href="https://www.facebook.com/visitgemcityofficial/" class="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-700 text-white hover:scale-110 transition-transform duration-200">
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
           </svg>
